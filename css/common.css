@@ -37,6 +37,7 @@ footer {
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
 .table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > td {
   padding: 3px 0 3px 0;  /* 5px の値を変更 */
 }
