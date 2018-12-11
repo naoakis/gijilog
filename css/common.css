@@ -5,25 +5,23 @@
     min-height: 100vh;
   }
   
-  
-header {
-    border-bottom: solid 0.5px #525050;
+
+.logo {
+    margin-right:30px;
+    font-size: 24px
 }
 
-
-.btn {
-    margin: 10px;
+.header_height{
+    float: left;
+    padding:5px 0 5px 0;
 }
+
 
 footer {
     text-align: center;
     margin-top: auto;
 }
-
-.container-fluid{
-    padding-top: 10px;
-}
-
+    
 .table{
     font-size: 80%;
     font-family: MS Pゴシック;
