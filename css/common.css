@@ -7,6 +7,7 @@
   
 
 .logo {
+    margin-left:10px; 
     margin-right:30px;
     font-size: 24px
 }
@@ -36,10 +37,10 @@ footer {
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
 .table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > td {
   padding: 3px 0 3px 0;  /* 5px の値を変更 */
 }
+
 
 .container-fluid {
     padding-right: 0px;
