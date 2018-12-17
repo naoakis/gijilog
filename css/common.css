@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgb(222, 226, 230) 0.5px, transparent 0),
+                      linear-gradient(90deg, rgb(222, 226, 230) 0.5px, transparent 0);
+    background-size: 13px 24px;
+  
   }
   
 
@@ -21,16 +26,16 @@
 footer {
     text-align: center;
     margin-top: auto;
+    background:#ffffff;
 }
     
 .table{
     width: 100%;
     font-size: 80%;
     font-family: MS Pゴシック;
-}
-
-.table{
+    border: 0;
     height:80%;
+
 }
 
 .table-condensed > thead > tr > th,
@@ -39,7 +44,8 @@ footer {
 .table-condensed > thead > tr > td,
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > td {
-  padding: 3px 0 3px 0;  /* 5px の値を変更 */
+  padding: 3px 0 3px 0;
+  border: 0;
 }
 
 
